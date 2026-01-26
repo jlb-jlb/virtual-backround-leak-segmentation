@@ -1,0 +1,1 @@
+rsync -avz --exclude-from=.gitignore . vader@raid:/home/user/
