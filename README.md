@@ -67,8 +67,8 @@ A custom **Continuous Regression Loss** was developed to handle the soft labels:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/wave2_vader.git
-    cd wave2_vader
+    git clone https://github.com/jlb-jlb/virtual-backround-leak-segmentation.git
+    cd virtual-backround-leak-segmentation
     ```
 
 2.  **Install Dependencies:**
@@ -81,7 +81,7 @@ A custom **Continuous Regression Loss** was developed to handle the soft labels:
     ```bash
     pip install -r setup/requirements.txt
     ```
-
+    
     *Note: The project uses `pyproject.toml` or `requirements.txt` for dependency management.*
 
 ## Usage
@@ -134,7 +134,7 @@ To retrain the model or experiment with different architectures:
 ## Project Structure
 
 ```
-wave2_vader/
+virtual-backround-leak-segmentation/
 ├── data/                   # Dataset directory
 ├── lightning_logs/         # Training logs and model checkpoints
 ├── src/                    # Core source code
@@ -162,4 +162,3 @@ The solution was iteratively improved through several experiments. The final sel
 
 ---
 *This repository was created as part of the RAID Wave 2 VADER challenge.*
-
