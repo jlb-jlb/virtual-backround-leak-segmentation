@@ -171,3 +171,5 @@ vader.zip
 *.jpg
 .ipynb_checkpoints/
 .vscode
+
+!lightning_logs/version_24/**
