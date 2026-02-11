@@ -165,11 +165,13 @@ cython_debug/
 data/
 data_dummy/
 videos/
-lightning_logs/
+
 reconstruction_results/
 vader.zip
 *.jpg
 .ipynb_checkpoints/
 .vscode
 
+lightning_logs/*
+!lightning_logs/version_24/
 !lightning_logs/version_24/**

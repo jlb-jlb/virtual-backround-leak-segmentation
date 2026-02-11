@@ -1,0 +1,10 @@
+height: 720
+in_channels: 5
+learning_rate: 0.0001
+loss_type: combined
+mode_dir: null
+model_architecture: unet
+use_dog: true
+use_edge: true
+use_mode: false
+width: 1280
